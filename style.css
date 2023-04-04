@@ -11,6 +11,7 @@ body{
     justify-content: space-between;
     background-color: #1F2937;
     padding: 2px 200px;
+    flex: 1;
     
 }
 ul{
@@ -30,10 +31,9 @@ ul{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    flex: 1;
 }
 .sun{
-    height: 200px;
-    width: 400px;
     gap: 10px;
 }
 .image{
@@ -43,6 +43,8 @@ ul{
 .first{
     background-color: #1F2937;
     padding: 2px 200px;
+    display: flex;
+    justify-content: space-between;
 }
 .text1{
     font-size: 48px;
@@ -121,8 +123,7 @@ button{
    }
 .but{
     border: 1px solid white;
-    width: 60px;
-    height: 30px;
+    width: 80px;
 }
 .p{
     font-weight: bolder;
@@ -136,13 +137,13 @@ button{
     display: flex;
     justify-content: space-between;
     border-radius: 16px;
-    padding: 20px 100px;
+    padding: 20px 50px;
     align-items: center;
 
 }
 .header,.footer{
     background-color: #1F2937;
-    height: 60px;
+    height: 40px;
 }
 .footer{
     display: flex;
@@ -155,5 +156,6 @@ button{
 display: flex;
 flex: 1;
 flex-direction: column;
+justify-content: space-between;
 gap: 50px;
 }
