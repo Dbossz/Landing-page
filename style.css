@@ -10,9 +10,8 @@ body{
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 2px 200px;
-    flex: 1;
-    
+    padding: 2px 100px;    
+    border: none;
 }
 ul{
     display: flex;
@@ -35,6 +34,12 @@ ul{
 }
 .sun{
     gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    width: 60px;
 }
 .image{
     height: 200px;
@@ -42,7 +47,7 @@ ul{
 }
 .first{
     background-color: #1F2937;
-    padding: 2px 200px;
+    padding: 2px 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -102,7 +107,7 @@ button{
 }
 .third{
     background-color: #E5E7EB;
-    padding: 20px 200px;
+    padding: 20px 100px;
 }
 .text5{
     font-size: 36px ;
@@ -118,7 +123,7 @@ button{
     color: black;
 }
 .fourth{
-    padding: 2px 200px;
+    padding: 2px 100px;
     color: #F9FAF8;
    }
 .but{
